@@ -1,0 +1,27 @@
+{% macro generate_section(name, img, title, titleMain, titleSub, descLeft, descRight) %}
+<section class="{{name}}">
+  <div class="container position-relative">
+    <div class="{{name}}__title-container">
+      <div class="{{name}}__title-wrapper">
+        <p class="{{name}}__title_subtitle">{{title}}</p>
+        <h2 class="{{name}}__title_main">{{titleMain}}</h2>
+        <p class="{{name}}__title_desc">
+          {{titleSub}}
+        </p>
+      </div>
+    </div>
+    <img src="{{img}}" alt="main" class="{{name}}__img" />
+    <p class="{{name}}__symptoms">
+      Как проявляется
+    </p>
+    <div class="{{name}}__description-wrapper">
+      <p class="{{name}}__description">
+        {{descLeft}}
+      </p>
+      <p class="{{name}}__description">
+        {{descRight}}
+      </p>
+    </div>
+  </div>
+</section>
+{% endmacro %}

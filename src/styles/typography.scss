@@ -1,0 +1,37 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans Normal';
+  font-style: normal;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Neucha';
+  font-style: normal;
+  src: url('../fonts/Neucha.ttf') format('truetype');
+}
+
+* {
+  color: #2a2626;
+  // font-size: 1.6em;
+  // line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  // line-height: 1.6;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
