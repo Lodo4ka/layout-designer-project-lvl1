@@ -4,35 +4,24 @@
 
   text-align: center;
 
-  &__title {
-    font-family: 'Neucha', serif;
-
-    &-dark {
-      color: $dark;
-    }
-
-    &-main {
-      color: $main;
-    }
-  }
-
-  &__video {
+  &-video {
     position: relative;
     top: 100px;
 
-    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-
+    
     &_description {
       margin-top: 35px;
-      // margin: 35px auto;
-
-      font-family: 'Open Sans Normal', sans-serif;
+    }
+    
+    &-filter {
+      filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     }
   }
 }
 
 .main-menu {
   position: relative;
+  padding: 200px 164px 100px;
 
   &::before {
     position: absolute;
@@ -46,10 +35,8 @@
 
     content: '';
   }
-  padding: 200px 164px 100px;
 
   .main-menu__card_container {
-    display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;

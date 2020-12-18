@@ -22,7 +22,7 @@
     font-family: 'Neucha', serif;
     line-height: 1.2;
 
-    &__title-main {
+    &-title-main-color {
       color: $main;
     }
 
@@ -35,13 +35,13 @@
     }
   }
 
-  .header__description-wrapper {
+  .header-description-wrapper {
     font-family: 'Open Sans Normal', sans-serif;
 
     display: flex;
     margin-top: 225px;
 
-    .header__description {
+    .header-description {
       padding: 0 15px;
     }
   }

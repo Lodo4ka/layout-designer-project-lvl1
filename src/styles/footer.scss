@@ -1,46 +1,33 @@
-.footer {
-  // padding: 100px 165px;
-}
-
-.footer__form {
+.footer-form {
   display: flex;
   align-self: center;
   justify-content: space-between;
   padding: 55px 52px;
+}
 
-  font-family: 'Neucha', serif;
-
+.footer-form-main-dark {
   background-color: $main-dark;
 }
 
-.footer__question {
+.footer-question {
   display: block;
   max-width: 393px;
+}
 
+.footer-question-white {
   color: $color-white;
-
+  
   font-size: 36px;
 }
 
-.footer__form_inner_wrapper {
-  // display: flex;
-  font-family: 'Open Sans Normal', sans-serif;
-}
 
-.footer__form_email {
-  margin-bottom: 8px;
-
+.footer-form-email-white {
   color: $color-white;
   font-weight: 700;
   font-size: 18px;
 }
 
-.footer__form_input_wrapper {
-  display: flex;
-  margin-bottom: 8px;
-}
-
-.footer__form_input {
+.footer-form-input {
   min-width: 334px;
   padding: 10px;
 
@@ -69,47 +56,16 @@
   }
 }
 
-.footer__form_input_send_img {
+.footer-form-input-img {
   padding: 14px 26px;
+}
 
+.footer-form-input-img-bg-main {
   background-color: $main;
 }
 
-.footer__form_input_desc {
-  color: $color-white;
-
-  a {
-    color: $color-white;
-    text-decoration: underline;
-  }
-}
-
-.footer__copyright {
-
-  display: flex;
+.footer-copyright {
   flex-direction: column;
   align-items: center;
   padding: 100px 0;
-
-  font-size: 14px;
-
-  font-family: 'Open Sans Normal', sans-serif;
-}
-
-.footer__copyright_author {
-  margin-bottom: 16px;
-
-  a {
-    color: $blue;
-    text-decoration: underline;
-  }
-}
-
-.footer__copyright_material {
-  margin-bottom: 16px;
-
-  a {
-    color: $blue;
-    text-decoration: underline;
-  }
 }

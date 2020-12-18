@@ -583,7 +583,7 @@ html {
   font-family: 'Open Sans Normal', sans-serif; }
 
 /* line 30, src/styles/footer.scss */
-.footer__form_email {
+.footer-form-email {
   margin-bottom: 8px;
   color: #fff;
   font-weight: 700;
