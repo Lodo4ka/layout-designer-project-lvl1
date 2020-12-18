@@ -1,4 +1,4 @@
-@mixin section($name, $bgColor, $subtitleColor, $titleColor, $sympColor, $sympBgColor, $marginSymp, $side, $positions) {
+@mixin section($name, $bgColor, $subtitleColor, $titleColor, $sympColor, $sympBgColor, $marginSymp, $side, $order) {
   .#{$name} {
     position: relative;
 
@@ -45,13 +45,13 @@
     }
   }
 
+  .section-wrapper {
+    display: flex;
+  }
+
   .#{$name}__img {
-    position: absolute;
 
-    @each $property, $value in $positions {
-      #{$property}: $value;
-    }
-
+    order: $order;
     height: 405px;
 
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
