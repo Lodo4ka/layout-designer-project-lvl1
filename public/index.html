@@ -17,7 +17,7 @@
   <div class="header-wrapper">
   <header class="header container">
     <h1 class="header__title">
-      <span class="header__title-main">
+      <span class="header-title-main-color">
         Когнитивные
         <br />
         искажения
@@ -28,17 +28,20 @@
       </span>
     </h1>
     <img src="./images/main.png" alt="main" class="header__img" />
-    <div class="header__description-wrapper">
-      <p class="header__description">
+    <div class="header-description-wrapper">
+      <p class="header-description">
         Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто
         игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно
         как-то справиться, а иногда, к сожалению, нет.
       </p>
-      <p class="header__description">
+      <p class="header-description d-flex flex-column align-start">
         Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности,
         багам и бесконечному разочарованию.
         Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а
         остатки нейтрализовать.
+        <button class="btn btn-orange font-open-sans">
+          Подробнее
+        </button>
       </p>
     </div>
   </header>
@@ -48,42 +51,42 @@
 
 <main>
   <section class="youtube container">
-    <h2 class="youtube__title">
-      <p class="youtube__title-dark">Что же это такое,</p>
-      <p class="youtube__title-main">когнитивные искажения?</p>
+    <h2 class="font-neucha">
+      <p class="text-dark">Что же это такое,</p>
+      <p class="text-main">когнитивные искажения?</p>
     </h2>
-    <p class="youtube__video_description">Что такое когнитивные искажения. Petrovna Channel</p>
-    <iframe class="youtube__video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss"
-      frameborder="0" allowfullscreen></iframe>
+    <p class="youtube-video-description font-open-sans">Что такое когнитивные искажения. Petrovna Channel</p>
+    <iframe class="youtube-video youtube-video-filter" width="919" height="569"
+      src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
   </section>
   <section class="main-menu">
-    <nav class="main-menu__card_container">
+    <nav class="main-menu__card_container d-flex">
       <a href="#" class="main-menu__card title">
         <span class="main-menu__card-main">5 когнитивных искажений</span><br>
         о существовании которых стоит помнить
       </a>
-      <a href="#" class="main-menu__card">
+      <a href="#ikea-effect" class="main-menu__card">
         <p class="main-menu__card-number">1</p>
         <p class="main-menu__card-title">Эффект ИКЕА</p>
         <p class="main-menu__card-description">
           Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
         </p>
       </a>
-      <a href="#" class="main-menu__card">
+      <a href="#premature-optimization" class="main-menu__card">
         <p class="main-menu__card-number">2</p>
         <p class="main-menu__card-title">Преждевременная оптимизация</p>
         <p class="main-menu__card-description">
           Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
         </p>
       </a>
-      <a href="#" class="main-menu__card">
+      <a href="#distortion-of-novelty" class="main-menu__card">
         <p class="main-menu__card-number">3</p>
         <p class="main-menu__card-title">Искажение новизны</p>
         <p class="main-menu__card-description">
           Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
         </p>
       </a>
-      <a href="#" class="main-menu__card">
+      <a href="#hyperbolic-depreciation" class="main-menu__card">
         <p class="main-menu__card-number">4</p>
         <p class="main-menu__card-title">Гиперболическое обесценивание</p>
         <p class="main-menu__card-description">
@@ -91,7 +94,7 @@
           будущем.
         </p>
       </a>
-      <a href="#" class="main-menu__card">
+      <a href="#errors-in-planning" class="main-menu__card">
         <p class="main-menu__card-number">5</p>
         <p class="main-menu__card-title">Ошибка планирования</p>
         <p class="main-menu__card-description">
@@ -101,18 +104,20 @@
     </nav>
   </section>
   
-<section class="ikea-effect">
+<section class="ikea-effect" id="ikea-effect">
   <div class="container position-relative">
-    <div class="ikea-effect__title-container">
-      <div class="ikea-effect__title-wrapper">
-        <p class="ikea-effect__title_subtitle">Когнитивные искажения</p>
-        <h2 class="ikea-effect__title_main">Эффект ИКЕА</h2>
-        <p class="ikea-effect__title_desc">
-          Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
-        </p>
+    <div class="section-wrapper">
+      <div class="ikea-effect__title-container">
+        <div class="ikea-effect__title-wrapper">
+          <p class="ikea-effect__title_subtitle">Когнитивные искажения</p>
+          <h2 class="ikea-effect__title_main">Эффект ИКЕА</h2>
+          <p class="ikea-effect__title_desc">
+            Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
+          </p>
+        </div>
       </div>
+      <img src="./images/1.png" alt="main" class="ikea-effect__img" />
     </div>
-    <img src="./images/1.png" alt="main" class="ikea-effect__img" />
     <p class="ikea-effect__symptoms">
       Как проявляется
     </p>
@@ -128,18 +133,20 @@
 </section>
 
   
-<section class="premature-optimization">
+<section class="premature-optimization" id="premature-optimization">
   <div class="container position-relative">
-    <div class="premature-optimization__title-container">
-      <div class="premature-optimization__title-wrapper">
-        <p class="premature-optimization__title_subtitle">Когнитивные искажения</p>
-        <h2 class="premature-optimization__title_main">Преждевременная оптимизация</h2>
-        <p class="premature-optimization__title_desc">
-          Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
-        </p>
+    <div class="section-wrapper">
+      <div class="premature-optimization__title-container">
+        <div class="premature-optimization__title-wrapper">
+          <p class="premature-optimization__title_subtitle">Когнитивные искажения</p>
+          <h2 class="premature-optimization__title_main">Преждевременная оптимизация</h2>
+          <p class="premature-optimization__title_desc">
+            Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
+          </p>
+        </div>
       </div>
+      <img src="./images/2.png" alt="main" class="premature-optimization__img" />
     </div>
-    <img src="./images/2.png" alt="main" class="premature-optimization__img" />
     <p class="premature-optimization__symptoms">
       Как проявляется
     </p>
@@ -155,18 +162,20 @@
 </section>
 
   
-<section class="distortion-of-novelty">
+<section class="distortion-of-novelty" id="distortion-of-novelty">
   <div class="container position-relative">
-    <div class="distortion-of-novelty__title-container">
-      <div class="distortion-of-novelty__title-wrapper">
-        <p class="distortion-of-novelty__title_subtitle">Когнитивные искажения</p>
-        <h2 class="distortion-of-novelty__title_main">Искажение новизны</h2>
-        <p class="distortion-of-novelty__title_desc">
-          Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
-        </p>
+    <div class="section-wrapper">
+      <div class="distortion-of-novelty__title-container">
+        <div class="distortion-of-novelty__title-wrapper">
+          <p class="distortion-of-novelty__title_subtitle">Когнитивные искажения</p>
+          <h2 class="distortion-of-novelty__title_main">Искажение новизны</h2>
+          <p class="distortion-of-novelty__title_desc">
+            Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
+          </p>
+        </div>
       </div>
+      <img src="./images/3.png" alt="main" class="distortion-of-novelty__img" />
     </div>
-    <img src="./images/3.png" alt="main" class="distortion-of-novelty__img" />
     <p class="distortion-of-novelty__symptoms">
       Как проявляется
     </p>
@@ -182,18 +191,20 @@
 </section>
 
   
-<section class="hyperbolic-depreciation">
+<section class="hyperbolic-depreciation" id="hyperbolic-depreciation">
   <div class="container position-relative">
-    <div class="hyperbolic-depreciation__title-container">
-      <div class="hyperbolic-depreciation__title-wrapper">
-        <p class="hyperbolic-depreciation__title_subtitle">Когнитивные искажения</p>
-        <h2 class="hyperbolic-depreciation__title_main">Гиперболическое обесценивание</h2>
-        <p class="hyperbolic-depreciation__title_desc">
-          Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
-        </p>
+    <div class="section-wrapper">
+      <div class="hyperbolic-depreciation__title-container">
+        <div class="hyperbolic-depreciation__title-wrapper">
+          <p class="hyperbolic-depreciation__title_subtitle">Когнитивные искажения</p>
+          <h2 class="hyperbolic-depreciation__title_main">Гиперболическое обесценивание</h2>
+          <p class="hyperbolic-depreciation__title_desc">
+            Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
+          </p>
+        </div>
       </div>
+      <img src="./images/4.png" alt="main" class="hyperbolic-depreciation__img" />
     </div>
-    <img src="./images/4.png" alt="main" class="hyperbolic-depreciation__img" />
     <p class="hyperbolic-depreciation__symptoms">
       Как проявляется
     </p>
@@ -209,18 +220,20 @@
 </section>
 
   
-<section class="errors-in-planning">
+<section class="errors-in-planning" id="errors-in-planning">
   <div class="container position-relative">
-    <div class="errors-in-planning__title-container">
-      <div class="errors-in-planning__title-wrapper">
-        <p class="errors-in-planning__title_subtitle">Когнитивные искажения</p>
-        <h2 class="errors-in-planning__title_main">Ошибка планирования</h2>
-        <p class="errors-in-planning__title_desc">
-          Неправильно рассчитывать время необходимое для завершения задачи.
-        </p>
+    <div class="section-wrapper">
+      <div class="errors-in-planning__title-container">
+        <div class="errors-in-planning__title-wrapper">
+          <p class="errors-in-planning__title_subtitle">Когнитивные искажения</p>
+          <h2 class="errors-in-planning__title_main">Ошибка планирования</h2>
+          <p class="errors-in-planning__title_desc">
+            Неправильно рассчитывать время необходимое для завершения задачи.
+          </p>
+        </div>
       </div>
+      <img src="./images/5.png" alt="main" class="errors-in-planning__img" />
     </div>
-    <img src="./images/5.png" alt="main" class="errors-in-planning__img" />
     <p class="errors-in-planning__symptoms">
       Как проявляется
     </p>
@@ -239,24 +252,26 @@
 
   
   <footer class="footer container">
-  <form class="footer__form">
-    <label for="" class="footer__question">Хотите узнать больше? Подпишитесь на обновления</label>
-    <div class="footer__form_inner_wrapper">
-      <div class="footer-form-email">Электронная почта</div>
-      <div class="footer__form_input_wrapper">
-        <input type="email" class="footer__form_input" placeholder="Ваша электронная почта">
-        <img src="../../images/send.svg" alt="send" class="footer__form_input_send_img">
+  <form class="footer-form footer-form-main-dark font-neucha">
+    <label for="" class="footer-question footer-question-white">Хотите узнать больше? Подпишитесь на обновления</label>
+    <div class="font-open-sans">
+      <div class="footer-form-email-white mb-05">Электронная почта</div>
+      <div class="footer-form-input_wrapper d-flex mb-05">
+        <input type="email" class="footer-form-input" placeholder="Ваша электронная почта">
+        <img src="./images/send.svg" alt="send" class="footer-form-input-img footer-form-input-img-bg-main">
       </div>
-      <div class="footer__form_input_desc">Подписываясь, вы принимаете <a href="#">правила сервиса</a></div>
+      <div class="text-white">Подписываясь, вы принимаете <a href="#" class="text-white link-underline">правила
+          сервиса</a></div>
     </div>
   </form>
-  <div class="footer__copyright">
-    <div class="footer__copyright_author">© 2020 Новиков Максим</div>
-    <div class="footer__copyright_material">По материалам статьи Yash Ranadive <a href="#">Cognitive Biases in
+  <div class="footer-copyright font-open-sans d-flex fz-09">
+    <div class="mb-1">© 2020 Новиков Максим</div>
+    <div class="mb-1">По материалам статьи Yash Ranadive <a
+        href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="link">Cognitive Biases
+        in
         Programming</a>
     </div>
-    <div class="footer__copyright_material"><a href="#">Cognitive Biases in
-        Programming</a>
+    <div class="footer__copyright_material"><a href="https://hexlet.io" class="link">Курсы программирования Hexlet</a>
     </div>
   </div>
 </footer>

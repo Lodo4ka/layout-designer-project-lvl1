@@ -47,6 +47,7 @@
 
   .section-wrapper {
     display: flex;
+    justify-content: space-between;
   }
 
   .#{$name}__img {
@@ -85,7 +86,7 @@
   }
 
   .#{$name}__title_desc {
-    max-width: 540px;
+    max-width: 500px;
 
     color: $titleColor;
     font-size: 34px;

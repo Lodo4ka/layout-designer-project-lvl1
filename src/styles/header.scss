@@ -36,10 +36,11 @@
   }
 
   .header-description-wrapper {
-    font-family: 'Open Sans Normal', sans-serif;
 
     display: flex;
     margin-top: 225px;
+
+    font-family: 'Open Sans Normal', sans-serif;
 
     .header-description {
       padding: 0 15px;
@@ -50,10 +51,13 @@
 .btn {
   margin-top: 40px;
   padding: 12px 24px;
+
+  font-size: 16px;
 }
 
 .btn-orange {
-  background-color: $main;
 
   color: $color-white;
+
+  background-color: $main;
 }

@@ -8,11 +8,11 @@
     position: relative;
     top: 100px;
 
-    
-    &_description {
-      margin-top: 35px;
+    &-description {
+      margin-top: 27px;
+      margin-bottom: -70px;
     }
-    
+
     &-filter {
       filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     }
@@ -21,6 +21,7 @@
 
 .main-menu {
   position: relative;
+
   padding: 200px 164px 100px;
 
   &::before {
@@ -47,11 +48,14 @@
       margin: 15px;
       padding: 24px;
 
+      color: $dark;
+
       font-family: 'Neucha', serif;
 
       background-color: $light;
 
       &-number {
+        color: inherit;
         font-size: 64px;
       }
 
@@ -61,9 +65,19 @@
       }
 
       &-description {
-        color: $dark;
+        color: inherit;
         font-size: 16px;
         font-family: 'Open Sans Normal', sans-serif;
+      }
+
+      &:hover {
+        color: $color-white;
+
+        background-color: $main;
+
+        .main-menu__card-title {
+          color: $color-white;
+        }
       }
     }
 
