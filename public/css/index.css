@@ -102,6 +102,10 @@ html {
   height: 100%; }
 
 /* line 15, src/styles/global.scss */
+img {
+  max-width: 100%; }
+
+/* line 19, src/styles/global.scss */
 .container {
   max-width: 1100px;
   margin: 0 auto; }
@@ -123,34 +127,34 @@ html {
 .header {
   position: relative;
   padding: 100px 0;
+  overflow: hidden;
   font-family: 'Neucha', serif;
   line-height: 1.2; }
-  /* line 26, src/styles/header.scss */
+  /* line 27, src/styles/header.scss */
   .header-title-main-color {
     color: #fe8a02; }
-  /* line 30, src/styles/header.scss */
+  /* line 31, src/styles/header.scss */
   .header-img {
     position: absolute;
     top: 55px;
-    right: -270px;
-    height: 525px; }
+    right: -270px; }
 
-/* line 39, src/styles/header.scss */
+/* line 38, src/styles/header.scss */
 .header-description-wrapper {
   display: flex;
   margin-top: 225px;
   font-family: 'Open Sans Normal', sans-serif; }
 
-/* line 47, src/styles/header.scss */
+/* line 46, src/styles/header.scss */
 .header-description {
   padding: 0 15px; }
 
-/* line 51, src/styles/header.scss */
+/* line 50, src/styles/header.scss */
 .btn {
   margin-top: 40px;
   padding: 12px 24px; }
 
-/* line 56, src/styles/header.scss */
+/* line 55, src/styles/header.scss */
 .btn-orange {
   color: #fff;
   font-size: 16px;

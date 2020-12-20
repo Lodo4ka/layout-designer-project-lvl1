@@ -19,6 +19,7 @@
   position: relative;
 
   padding: 100px 0;
+  overflow: hidden;
 
   font-family: 'Neucha', serif;
   line-height: 1.2;
@@ -31,8 +32,6 @@
     position: absolute;
     top: 55px;
     right: -270px;
-
-    height: 525px;
   }
 }
 
