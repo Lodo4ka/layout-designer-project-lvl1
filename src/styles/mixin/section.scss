@@ -35,14 +35,8 @@
     }
   }
 
-  .#{$name}__title-container {
+  .#{$name}-title-container {
     display: flex;
-  }
-
-  .#{$name}__title-wrapper {
-    @if $side == 'right' {
-      margin-left: auto;
-    }
   }
 
   .section-wrapper {
@@ -50,7 +44,7 @@
     justify-content: space-between;
   }
 
-  .#{$name}__img {
+  .#{$name}-img {
 
     order: $order;
     height: 405px;
@@ -58,7 +52,7 @@
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   }
 
-  .#{$name}__symptoms {
+  .#{$name}-symptoms {
     margin-top: $marginSymp;
     padding: 4px;
 
@@ -71,33 +65,39 @@
     background-color: $sympBgColor;
   }
 
-  .#{$name}__title_subtitle {
+  .#{$name}-title_subtitle {
     margin-bottom: 8px;
 
     color: $subtitleColor;
     font-size: 24px;
   }
 
-  .#{$name}__title_main {
+  .#{$name}-title_main {
     max-width: 540px;
     margin-bottom: 24px;
 
     color: $titleColor;
   }
 
-  .#{$name}__title_desc {
+  .#{$name}-title_desc {
     max-width: 500px;
 
     color: $titleColor;
     font-size: 34px;
   }
 
-  .#{$name}__description-wrapper {
+  .#{$name}-description-wrapper {
     display: flex;
     margin-top: 24px;
   }
 
-  .#{$name}__description {
+  .#{$name}-description {
+    flex: 1;
+
+    &:nth-child(1) {
+      margin-right: 30px;
+    }
+
     color: $titleColor;
     font-family: 'Open Sans Normal', sans-serif;
   }

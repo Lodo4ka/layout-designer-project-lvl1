@@ -36,68 +36,65 @@
 
     content: '';
   }
+}
 
-  .main-menu__card_container {
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: auto;
+.card-container {
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
 
-    .main-menu__card {
-      max-width: 350px;
-      height: 348px;
-      margin: 15px;
-      padding: 24px;
+.card {
+  max-width: 350px;
+  height: 348px;
+  margin: 15px;
+  padding: 24px;
 
-      color: $dark;
+  color: $dark;
 
-      font-family: 'Neucha', serif;
+  font-family: 'Neucha', serif;
 
-      background-color: $light;
+  background-color: $light;
 
-      &-number {
-        color: inherit;
-        font-size: 64px;
-      }
+  &-number {
+    color: inherit;
+    font-size: 64px;
+  }
 
-      &-title {
-        color: $main;
-        font-size: 34px;
-      }
+  &-title {
+    color: $main;
+    font-size: 34px;
+  }
 
-      &-description {
-        color: inherit;
-        font-size: 16px;
-        font-family: 'Open Sans Normal', sans-serif;
-      }
+  &-description {
+    color: inherit;
+    font-size: 16px;
+    font-family: 'Open Sans Normal', sans-serif;
+  }
 
-      &:hover {
-        color: $color-white;
+  &:hover {
+    color: $color-white;
 
-        background-color: $main;
+    background-color: $main;
 
-        .main-menu__card-title {
-          color: $color-white;
-        }
-      }
-    }
-
-    .main-menu__card.title {
-      max-width: 350px;
-      height: 348px;
-      padding: 0;
-
+    .card-title {
       color: $color-white;
-
-      font-size: 52px;
-      line-height: 1.2;
-
-      background: transparent;
-    }
-
-    .main-menu__card-main {
-      color: $main;
     }
   }
+}
+
+.card-main-title {
+  max-width: 350px;
+  height: 348px;
+  margin: 15px;
+  padding: 0;
+}
+
+.card-main-title-transparent {
+  font-size: 52px;
+  line-height: 1.2;
+
+  background: transparent;
 }
 
 @include section('ikea-effect', "", $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
