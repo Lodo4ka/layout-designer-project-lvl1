@@ -39,18 +39,6 @@
     }
   }
 
-  .section-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    @media screen and (max-width: 1100px) {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-
   .#{$name}-img {
     order: $order;
     max-width: 100%;
@@ -91,7 +79,7 @@
     }
   }
 
-  .#{$name}-title_subtitle {
+  .#{$name}-title-subtitle {
     margin-bottom: 8px;
 
     color: $subtitleColor;
@@ -109,7 +97,7 @@
     }
   }
 
-  .#{$name}-title_desc {
+  .#{$name}-title-desc {
     max-width: 500px;
 
     color: $titleColor;
