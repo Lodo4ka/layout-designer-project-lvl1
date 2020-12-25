@@ -1,4 +1,8 @@
-.header-wrapper {
+.header {
+  overflow: hidden;
+
+  background-color: $light;
+
   &::before {
     position: absolute;
     top: 0;
@@ -9,17 +13,16 @@
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.06;
 
     content: '';
   }
 }
 
-.header {
+.header-wrapper {
   position: relative;
 
   padding: 100px 0;
-  overflow: hidden;
 
   font-family: 'Neucha', serif;
   line-height: 1.2;
@@ -29,7 +32,7 @@
   }
 
   &-title-wrapper {
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1100px) {
       justify-content: center;
 
       text-align: center;
@@ -41,7 +44,7 @@
     top: 55px;
     right: -270px;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1100px) {
       display: none;
     }
   }

@@ -111,8 +111,8 @@
   background: transparent;
 }
 
-@include section('ikea-effect', "", $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
-@include section('premature-optimization', $brown, $color-white, $color-white, $dark, $color-white, 161px, 'left', 1);
-@include section('distortion-of-novelty', "", $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
-@include section('hyperbolic-depreciation', $brown, $color-white, $color-white, $dark, $color-white, 161px, 'left', 1);
-@include section('errors-in-planning', "", $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
+@include section('ikea-effect', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
+@include section('premature-optimization', $brown, $translucent-white, $color-white, $dark, $color-white, 161px, 'left', 1);
+@include section('distortion-of-novelty', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
+@include section('hyperbolic-depreciation', $brown, $translucent-white, $color-white, $dark, $color-white, 161px, 'left', 1);
+@include section('errors-in-planning', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
