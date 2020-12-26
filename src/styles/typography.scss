@@ -28,14 +28,26 @@ h3 {
 
 h1 {
   font-size: 72px;
+
+  @media screen and (max-width: 550px) {
+    font-size: 50px;
+  }
 }
 
 h2 {
   font-size: 60px;
+
+  @media screen and (max-width: 550px) {
+    font-size: 40px;
+  }
 }
 
 h3 {
   font-size: 34px;
+
+  @media screen and (max-width: 550px) {
+    font-size: 20px;
+  }
 }
 
 .font-open-sans {
@@ -51,6 +63,10 @@ h3 {
 .text-white {
   color: $color-white;
   font-weight: 400;
+
+  @media screen and (max-width: 550px) {
+    font-size: 12px;
+  }
 }
 
 .text-blue {
