@@ -1,10 +1,6 @@
 @mixin section($name, $bgColor, $subtitleColor, $titleColor, $sympColor, $sympBgColor, $marginSymp, $side, $order) {
   .#{$name} {
-    position: relative;
-
     padding: 100px 0;
-
-    font-family: 'Neucha', serif;
 
     @media screen and (max-width: 1100px) {
       padding: 50px 0;
@@ -54,7 +50,6 @@
     color: $sympColor;
     font-weight: bold;
     font-size: 14px;
-    font-family: 'Open Sans Bold', sans-serif;
     text-transform: uppercase;
 
     background-color: $sympBgColor;
@@ -113,7 +108,6 @@
   }
 
   .#{$name}-description-wrapper {
-    display: flex;
     margin-top: 24px;
 
     @media screen and (max-width: 1100px) {
@@ -148,6 +142,5 @@
     }
 
     color: $titleColor;
-    font-family: 'Open Sans Normal', sans-serif;
   }
 }

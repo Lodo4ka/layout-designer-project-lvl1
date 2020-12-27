@@ -20,11 +20,8 @@
 }
 
 .header-wrapper {
-  position: relative;
-
   padding: 100px 0;
 
-  font-family: 'Neucha', serif;
   line-height: 1.2;
 
   &-title-main-color {
@@ -40,7 +37,6 @@
   }
 
   &-img {
-    position: absolute;
     top: 55px;
     right: -270px;
 
@@ -56,10 +52,7 @@
 }
 
 .header-description-wrapper {
-  display: flex;
   margin-top: 225px;
-
-  font-family: 'Open Sans Normal', sans-serif;
 
   @media screen and (max-width: 1100px) {
     margin-top: 100px;
@@ -94,7 +87,6 @@
 }
 
 .btn-orange {
-
   color: $color-white;
   font-size: 16px;
 

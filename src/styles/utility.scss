@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 .d-flex {
   display: flex;
 }
@@ -10,8 +14,12 @@
   flex-wrap: wrap;
 }
 
-.justitfy-center {
+.justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .flex-column {
@@ -20,6 +28,10 @@
 
 .align-start {
   align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .mb-05 {
@@ -33,4 +45,8 @@
 .link {
   color: $blue;
   text-decoration: underline;
+}
+
+.d-block {
+  display: block;
 }

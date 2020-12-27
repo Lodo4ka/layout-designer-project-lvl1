@@ -1,7 +1,7 @@
 {% macro generate_section(name, img, title, titleMain, titleSub, descLeft, descRight) %}
-<section class="{{name}}" id="{{name}}">
+<section class="{{name}} position-relative font-neucha" id="{{name}}">
   <div class="container position-relative">
-    <div class="section-wrapper">
+    <div class="section-wrapper d-flex flex-wrap justify-between">
       <div class="{{name}}-title-container">
         <div class="{{name}}-title-wrapper">
           <p class="{{name}}-title-subtitle">{{title}}</p>
@@ -13,14 +13,14 @@
       </div>
       <img src="{{img}}" alt="main" class="{{name}}-img" />
     </div>
-    <p class="{{name}}-symptoms">
+    <p class="{{name}}-symptoms font-open-sans">
       Как проявляется
     </p>
-    <div class="{{name}}-description-wrapper">
-      <p class="{{name}}-description">
+    <div class="{{name}}-description-wrapper d-flex">
+      <p class="{{name}}-description font-open-sans">
         {{descLeft}}
       </p>
-      <p class="{{name}}-description">
+      <p class="{{name}}-description font-open-sans">
         {{descRight}}
       </p>
     </div>
