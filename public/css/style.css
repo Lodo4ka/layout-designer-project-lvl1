@@ -279,8 +279,9 @@ img {
     top: 100px;
     width: 919px;
     max-width: 100%;
-    height: 569px; }
-    /* line 22, src/styles/main.scss */
+    height: 569px;
+    border: 0; }
+    /* line 24, src/styles/main.scss */
     .youtube-video-filter {
       filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); }
     @media screen and (max-width: 550px) {
@@ -292,10 +293,10 @@ img {
     .youtube {
       padding: 0 30px; } }
 
-/* line 36, src/styles/main.scss */
+/* line 38, src/styles/main.scss */
 .main-menu {
   padding: 200px 164px 100px; }
-  /* line 39, src/styles/main.scss */
+  /* line 41, src/styles/main.scss */
   .main-menu::before {
     position: absolute;
     top: 0;
@@ -306,20 +307,20 @@ img {
     background-color: #42413c;
     content: ''; }
   @media screen and (max-width: 1490px) {
-    /* line 36, src/styles/main.scss */
+    /* line 38, src/styles/main.scss */
     .main-menu {
       padding: 100px 50px; } }
   @media screen and (max-width: 860px) {
-    /* line 36, src/styles/main.scss */
+    /* line 38, src/styles/main.scss */
     .main-menu {
       padding: 100px 0; } }
 
-/* line 61, src/styles/main.scss */
+/* line 63, src/styles/main.scss */
 .card-container {
   max-width: 1200px;
   margin: auto; }
 
-/* line 66, src/styles/main.scss */
+/* line 68, src/styles/main.scss */
 .card {
   max-width: 350px;
   height: 348px;
@@ -327,52 +328,52 @@ img {
   padding: 24px;
   color: #2a2626;
   background-color: #f5f4f0; }
-  /* line 76, src/styles/main.scss */
+  /* line 78, src/styles/main.scss */
   .card-number {
     color: inherit;
     font-size: 64px; }
-  /* line 81, src/styles/main.scss */
+  /* line 83, src/styles/main.scss */
   .card-title {
     color: #fe8a02;
     font-size: 34px; }
-  /* line 86, src/styles/main.scss */
+  /* line 88, src/styles/main.scss */
   .card-description {
     color: inherit;
     font-size: 16px; }
     @media screen and (max-width: 550px) {
-      /* line 86, src/styles/main.scss */
+      /* line 88, src/styles/main.scss */
       .card-description {
         font-size: 12px; } }
-  /* line 95, src/styles/main.scss */
+  /* line 97, src/styles/main.scss */
   .card:hover {
     color: #fff;
     background-color: #fe8a02; }
-    /* line 100, src/styles/main.scss */
+    /* line 102, src/styles/main.scss */
     .card:hover .card-title {
       color: #fff; }
   @media screen and (max-width: 550px) {
-    /* line 66, src/styles/main.scss */
+    /* line 68, src/styles/main.scss */
     .card {
       height: auto; } }
 
-/* line 110, src/styles/main.scss */
+/* line 112, src/styles/main.scss */
 .card-main-title {
   max-width: 350px;
   height: 348px;
   margin: 15px;
   padding: 0; }
   @media screen and (max-width: 550px) {
-    /* line 110, src/styles/main.scss */
+    /* line 112, src/styles/main.scss */
     .card-main-title {
       height: auto; } }
 
-/* line 121, src/styles/main.scss */
+/* line 123, src/styles/main.scss */
 .card-main-title-transparent {
   font-size: 52px;
   line-height: 1.2;
   background: transparent; }
   @media screen and (max-width: 550px) {
-    /* line 121, src/styles/main.scss */
+    /* line 123, src/styles/main.scss */
     .card-main-title-transparent {
       font-size: 35px; } }
 
@@ -1007,7 +1008,7 @@ img {
       font-size: 12px; } }
 
 @media screen and (max-width: 1100px) {
-  /* line 138, src/styles/main.scss */
+  /* line 140, src/styles/main.scss */
   .section-wrapper {
     flex-direction: column;
     align-items: center;
