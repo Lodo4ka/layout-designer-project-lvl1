@@ -1,0 +1,1 @@
+1. "title-wrapper, section-wrapper, #{$name}-title-wrapper, .#{$name}-title-container" получился пустым из-за брейкпоинтов

@@ -40,7 +40,7 @@ gulp.task('set-prod', function () {
 });
 
 gulp.task('styles', function () {
-  gulp.src(srcAssets.styles + 'index.scss')
+  gulp.src(srcAssets.styles + 'style.scss')
     .pipe(sass({
       sourceComments: 'map',
       sourceMap: 'sass',
@@ -107,9 +107,7 @@ gulp.task('watch', ['copy', 'copy-fonts', 'styles', 'scripts', 'template', 'brow
   gulp.watch(srcAssets.root + '**/*.+(html|nunjucks|njk)', ['template', browserSync.reload]);
 });
 
-gulp.task('default', ['clean', 'images', 'styles', 'scripts', 'template', 'watch'], function () {
-  // console.log('############ =========> Development');
-});
+gulp.task('default', ['clean', 'images', 'styles', 'scripts', 'template', 'watch']);
 
 gulp.task('build', ['default']);
 
