@@ -7,7 +7,8 @@ const gulp = require('gulp'),
   imagemin = require('gulp-imagemin'),
   concat = require('gulp-concat'),
   browserSync = require('browser-sync').create(),
-  nunjucksRender = require('gulp-nunjucks-render');
+  nunjucksRender = require('gulp-nunjucks-render'),
+  cssbeautify = require('gulp-cssbeautify');
 
 const basePath = {
   src: 'src/',
@@ -42,14 +43,13 @@ gulp.task('set-prod', function () {
 gulp.task('styles', function () {
   gulp.src(srcAssets.styles + 'style.scss')
     .pipe(sass({
-      sourceComments: 'map',
       sourceMap: 'sass',
       outputStyle: 'nested'
     }))
     .on('error', sass.logError)
-    .pipe(gulpif(isProd, sass({
-      outputStyle: 'compressed'
-    })))
+    .pipe(cssbeautify({
+      indent: '  ',
+    }))
     .pipe(gulp.dest(destAssets.styles))
     .pipe(browserSync.reload({
       stream: true

@@ -60,7 +60,7 @@
   }
 
   @media screen and (max-width: 650px) {
-    flex-wrap: wrap;
+    display: block;
   }
 }
 
@@ -96,7 +96,7 @@
 
   background-color: $main;
 
-  @media screen and (max-width: 550px) {
-    font-size: 12px;
+  @media screen and (max-width: 650px) {
+    text-align: center;
   }
 }

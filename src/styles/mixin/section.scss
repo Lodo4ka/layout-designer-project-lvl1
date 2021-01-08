@@ -47,13 +47,6 @@
     margin-top: $marginSymp;
     padding: 4px;
 
-    color: $sympColor;
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-
-    background-color: $sympBgColor;
-
     @media screen and (max-width: 1100px) {
       margin-top: 100px;
       padding: 4px 15px;
@@ -62,6 +55,16 @@
     @media screen and (max-width: 550px) {
       font-size: 12px;
     }
+  }
+
+  .#{$name}-symptoms-background {
+
+    color: $sympColor;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    background-color: $sympBgColor;
   }
 
   .#{$name}-title-wrapper {
@@ -89,22 +92,26 @@
     max-width: 540px;
     margin-bottom: 24px;
 
-    color: $titleColor;
-
     @media screen and (max-width: 1100px) {
       margin-bottom: 0;
     }
   }
 
+  .#{$name}-title-colored {
+    color: $titleColor;
+  }
+
   .#{$name}-desc {
     max-width: 500px;
-
-    color: $titleColor;
-    font-size: 34px;
 
     @media screen and (max-width: 1100px) {
       max-width: auto;
     }
+  }
+
+  .#{$name}-desc-colored {
+    color: $titleColor;
+    font-size: 34px;
   }
 
   .#{$name}-description-wrapper {

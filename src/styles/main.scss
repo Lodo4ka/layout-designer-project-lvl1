@@ -71,10 +71,6 @@
   margin: 15px;
   padding: 24px;
 
-  color: $dark;
-
-  background-color: $light;
-
   &-number {
     color: inherit;
     font-size: 64px;
@@ -107,6 +103,12 @@
   @media screen and (max-width: 550px) {
     height: auto;
   }
+}
+
+.card-dark {
+  color: $dark;
+
+  background-color: $light;
 }
 
 .card-main-title {
