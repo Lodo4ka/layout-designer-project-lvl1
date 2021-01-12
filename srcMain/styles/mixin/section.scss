@@ -1,4 +1,4 @@
-@mixin section($name, $bgColor, $subtitleColor, $titleColor, $sympColor, $sympBgColor, $marginSymp, $side, $order) {
+@mixin section($name, $bgColor, $subtitleColor, $titleColor, $sympColor, $sympBgColor, $side, $order) {
   .#{$name} {
     padding: 100px 0;
 
@@ -44,7 +44,8 @@
   }
 
   .#{$name}-symptoms {
-    margin-top: $marginSymp;
+    // margin-top: $marginSymp;
+    margin-top: 100px;
     padding: 4px;
 
     @media screen and (max-width: 1100px) {
@@ -115,9 +116,10 @@
   }
 
   .#{$name}-description-wrapper {
-    margin-top: 24px;
+    margin: 20px -30px 0;
 
     @media screen and (max-width: 1100px) {
+      margin: 10px -15px 0;
       padding: 0 15px;
     }
 
@@ -129,15 +131,16 @@
   .#{$name}-description {
     flex: 1;
 
+    padding: 0 30px;
+
     color: $titleColor;
 
     @media screen and (max-width: 700px) {
       flex: auto;
+      padding: 0;
     }
 
     &:nth-child(1) {
-      margin-right: 30px;
-
       @media screen and (max-width: 700px) {
         &:nth-child(1) {
           margin-right: 0;

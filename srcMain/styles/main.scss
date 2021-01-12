@@ -133,11 +133,11 @@
   }
 }
 
-@include section('ikea-effect', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
-@include section('premature-optimization', $brown, $translucent-white, $color-white, $dark, $color-white, 161px, 'left', 1);
-@include section('distortion-of-novelty', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
-@include section('hyperbolic-depreciation', $brown, $translucent-white, $color-white, $dark, $color-white, 161px, 'left', 1);
-@include section('errors-in-planning', $light, $translucent-dar, $dark, $color-white, $brown, 227px, 'right', -1);
+@include section('ikea-effect', $light, $translucent-dar, $dark, $color-white, $brown, 'right', -1);
+@include section('premature-optimization', $brown, $translucent-white, $color-white, $dark, $color-white, 'left', 1);
+@include section('distortion-of-novelty', $light, $translucent-dar, $dark, $color-white, $brown, 'right', -1);
+@include section('hyperbolic-depreciation', $brown, $translucent-white, $color-white, $dark, $color-white, 'left', 1);
+@include section('errors-in-planning', $light, $translucent-dar, $dark, $color-white, $brown, 'right', -1);
 
 .section-wrapper {
   @media screen and (max-width: 1100px) {

@@ -8,6 +8,7 @@ const gulp = require('gulp'),
   concat = require('gulp-concat'),
   browserSync = require('browser-sync').create(),
   nunjucksRender = require('gulp-nunjucks-render'),
+  gulpStylelint = require('gulp-stylelint')
   cssbeautify = require('gulp-cssbeautify');
 
 const basePath = {
@@ -49,6 +50,9 @@ gulp.task('styles', function () {
     .on('error', sass.logError)
     .pipe(cssbeautify({
       indent: '  ',
+    }))
+    .pipe(gulpStylelint({
+      fix: true
     }))
     .pipe(gulp.dest(destAssets.styles))
     .pipe(browserSync.reload({
