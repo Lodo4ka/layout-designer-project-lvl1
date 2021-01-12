@@ -2,6 +2,8 @@
   .#{$name} {
     padding: 100px 0;
 
+    line-height: 25.6px;
+
     @media screen and (max-width: 1100px) {
       padding: 50px 0;
     }
@@ -38,15 +40,13 @@
   .#{$name}-img {
     order: $order;
     max-width: 100%;
-    max-height: 405px;
 
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   }
 
   .#{$name}-symptoms {
-    // margin-top: $marginSymp;
-    margin-top: 100px;
-    padding: 4px;
+    margin: 100px 0 0;
+    padding: 5px 10px;
 
     @media screen and (max-width: 1100px) {
       margin-top: 100px;
@@ -59,10 +59,9 @@
   }
 
   .#{$name}-symptoms-background {
-
     color: $sympColor;
-    font-weight: bold;
     font-size: 14px;
+    line-height: 16.8px;
     text-transform: uppercase;
 
     background-color: $sympBgColor;
@@ -75,6 +74,8 @@
   }
 
   .#{$name}-title-container {
+    max-width: 502px;
+
     @media screen and (max-width: 1100px) {
       margin-top: 30px;
 
@@ -83,15 +84,16 @@
   }
 
   .#{$name}-subtitle {
-    margin-bottom: 8px;
+    margin: 0;
 
     color: $subtitleColor;
     font-size: 24px;
+
+    line-height: 28.8px;
   }
 
   .#{$name}-title {
-    max-width: 540px;
-    margin-bottom: 24px;
+    margin: 0 0 30px;
 
     @media screen and (max-width: 1100px) {
       margin-bottom: 0;
@@ -100,23 +102,27 @@
 
   .#{$name}-title-colored {
     color: $titleColor;
+    line-height: 72px;
   }
 
   .#{$name}-desc {
-    max-width: 500px;
+    margin: 0;
+
+    line-height: 40.8px;
 
     @media screen and (max-width: 1100px) {
-      max-width: auto;
+      max-width: none;
     }
   }
 
   .#{$name}-desc-colored {
     color: $titleColor;
     font-size: 34px;
+    line-height: 40.8px;
   }
 
   .#{$name}-description-wrapper {
-    margin: 20px -30px 0;
+    margin: 20px -15px 0;
 
     @media screen and (max-width: 1100px) {
       margin: 10px -15px 0;
@@ -130,10 +136,11 @@
 
   .#{$name}-description {
     flex: 1;
-
-    padding: 0 30px;
+    margin: 0;
+    padding: 0 15px;
 
     color: $titleColor;
+    line-height: 25.6px;
 
     @media screen and (max-width: 700px) {
       flex: auto;

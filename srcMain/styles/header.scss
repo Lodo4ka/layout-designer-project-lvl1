@@ -33,11 +33,17 @@
 .title {
   position: relative;
   z-index: 1;
+
+  margin: 0;
+
+  line-height: 88px;
 }
 
 .title-img {
-  top: 42px;
-  right: -300px;
+  top: 55px;
+  right: -270px;
+
+  height: 525px;
 
   @media screen and (max-width: 1100px) {
     display: none;
@@ -53,7 +59,7 @@
 }
 
 .header-description-wrapper {
-  margin-top: 225px;
+  margin: 190px -15px 0;
 
   @media screen and (max-width: 1100px) {
     margin-top: 100px;
@@ -66,7 +72,10 @@
 
 .header-description {
   flex: 1;
+  margin: 0;
   padding: 0 15px;
+
+  color: $dark;
 
   line-height: 26px;
 
@@ -94,6 +103,7 @@
   color: $color-white;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
 
   background-color: $main;
 

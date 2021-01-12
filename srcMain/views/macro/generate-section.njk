@@ -1,10 +1,10 @@
-{% macro generate_section(name, img, title, titleMain, titleSub, descLeft, descRight) %}
-<section class="{{name}} position-relative font-neucha" id="{{name}}">
-  <div class="container position-relative">
-    <div class="section-wrapper d-flex flex-wrap justify-between">
+{% macro generate_section(name, img, titleMain, titleSub, descLeft, descRight) %}
+<section class="{{name}} position-relative" id="{{name}}">
+  <div class="container position-relative font-open-sans">
+    <div class="section-wrapper d-flex font-neucha justify-between">
       <div class="{{name}}-title-container">
         <div class="{{name}}-title-wrapper">
-          <p class="{{name}}-subtitle">{{title}}</p>
+          <p class="{{name}}-subtitle">Когнитивные искажения</p>
           <h2 class="{{name}}-title {{name}}-title-colored">{{titleMain}}</h2>
           <p class="{{name}}-desc {{name}}-desc-colored">
             {{titleSub}}
@@ -13,15 +13,15 @@
       </div>
       <img src="{{img}}" alt="main" class="{{name}}-img" />
     </div>
-    <p class="{{name}}-symptoms {{name}}-symptoms-background font-open-sans">
+    <div class="{{name}}-symptoms {{name}}-symptoms-background font-open-sans-bold">
       Как проявляется
-    </p>
+    </div>
     <div class="{{name}}-description-wrapper d-flex">
       <p class="{{name}}-description font-open-sans">
         {{descLeft}}
       </p>
       <p class="{{name}}-description font-open-sans">
-        {{descRight}}
+        {{descRight | safe}}
       </p>
     </div>
   </div>

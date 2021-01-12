@@ -1,13 +1,5 @@
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
-  padding: 0;
-
-  color: #2a2626;
-
-  text-decoration: none;
-
-  border: none;
 }
 
 html {
@@ -15,10 +7,12 @@ html {
 }
 
 img {
-  max-width: 100%;
+  @media screen and (max-width: 1000px) {
+    max-width: 100%;
+  }
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1110px;
   margin: 0 auto;
 }

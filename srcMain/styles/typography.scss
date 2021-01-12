@@ -1,3 +1,4 @@
+
 @font-face {
   font-weight: 400;
   font-family: 'Open Sans Normal';
@@ -6,23 +7,24 @@
 }
 
 @font-face {
-  // font-weight: 400;
   font-family: 'Open Sans Bold';
   font-style: normal;
   src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-weight: 400;
   font-family: 'Neucha';
   font-style: normal;
-  src: url('../fonts/Neucha.ttf') format('truetype');
+  src: url('../fonts/Neucha-Regular.ttf') format('truetype');
 }
 
 h1,
 h2,
 h3 {
+  margin: 0;
+
   font-weight: 400;
+  font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
 
@@ -35,6 +37,7 @@ h1 {
 }
 
 h2 {
+  color: $main;
   font-size: 60px;
 
   @media screen and (max-width: 550px) {
