@@ -493,7 +493,6 @@ img {
 .ikea-effect-img {
   order: -1;
   max-width: 100%;
-  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -661,7 +660,6 @@ img {
 .premature-optimization-img {
   order: 1;
   max-width: 100%;
-  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -829,7 +827,6 @@ img {
 .distortion-of-novelty-img {
   order: -1;
   max-width: 100%;
-  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -997,7 +994,6 @@ img {
 .hyperbolic-depreciation-img {
   order: 1;
   max-width: 100%;
-  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -1165,7 +1161,6 @@ img {
 .errors-in-planning-img {
   order: -1;
   max-width: 100%;
-  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
