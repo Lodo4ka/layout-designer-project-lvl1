@@ -11,8 +11,8 @@ const gulp = require('gulp'),
   cssbeautify = require('gulp-cssbeautify');
 
 const basePath = {
-  src: 'src/',
-  dest: 'public/'
+  src: 'srcMain/',
+  dest: 'src/'
 };
 
 let isProd = false;
