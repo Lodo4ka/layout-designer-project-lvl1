@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-weight: 400;
+  // font-weight: 400;
   font-family: 'Open Sans Bold';
   font-style: normal;
   src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
@@ -51,12 +51,14 @@ h3 {
 }
 
 .font-open-sans {
-  font-weight: 400;
   font-family: 'Open Sans Normal', sans-serif;
 }
 
+.font-open-sans-bold {
+  font-family: 'Open Sans Bold', sans-serif;
+}
+
 .font-neucha {
-  font-weight: 400;
   font-family: 'Neucha', serif;
 }
 

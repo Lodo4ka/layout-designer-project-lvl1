@@ -67,7 +67,6 @@
 }
 
 @font-face {
-  font-weight: 400;
   font-family: 'Open Sans Bold';
   font-style: normal;
   src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
@@ -118,12 +117,14 @@ h3 {
 }
 
 .font-open-sans {
-  font-weight: 400;
   font-family: 'Open Sans Normal', sans-serif;
 }
 
+.font-open-sans-bold {
+  font-family: 'Open Sans Bold', sans-serif;
+}
+
 .font-neucha {
-  font-weight: 400;
   font-family: 'Neucha', serif;
 }
 
@@ -290,6 +291,7 @@ img {
 .btn-orange {
   color: #fff;
   font-size: 16px;
+  text-transform: uppercase;
 
   background-color: #fe8a02;
 }
@@ -317,7 +319,7 @@ img {
 }
 
 .youtube-video {
-  top: 100px;
+  top: 90px;
 
   width: 919px;
   max-width: 100%;
@@ -493,6 +495,7 @@ img {
 .ikea-effect-img {
   order: -1;
   max-width: 100%;
+  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -660,6 +663,7 @@ img {
 .premature-optimization-img {
   order: 1;
   max-width: 100%;
+  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -827,6 +831,7 @@ img {
 .distortion-of-novelty-img {
   order: -1;
   max-width: 100%;
+  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -994,6 +999,7 @@ img {
 .hyperbolic-depreciation-img {
   order: 1;
   max-width: 100%;
+  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -1161,6 +1167,7 @@ img {
 .errors-in-planning-img {
   order: -1;
   max-width: 100%;
+  max-height: 405px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
