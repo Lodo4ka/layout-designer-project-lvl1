@@ -9,7 +9,7 @@ This repository is created and maintained by the team and the community of Hexle
 ## Setup
 
 ```sh
-$ make install
+make install
 ```
 
 ## Run lint
@@ -18,8 +18,5 @@ $ make install
 make lint
 ```
 
-## My surge link
+[My surge link](http://past-wound.surge.sh/)
 
-```sh
-http://past-wound.surge.sh/
-```
