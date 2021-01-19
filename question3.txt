@@ -1,2 +1,0 @@
-1. "title-wrapper, section-wrapper, #{$name}-title-wrapper, .#{$name}-title-container" получился пустым из-за брейкпоинтов
-2. что такое flow-type https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element

@@ -20,7 +20,6 @@ let isProd = false;
 
 const srcAssets = {
   styles: basePath.src + 'styles/',
-  scripts: basePath.src + 'scripts/',
   images: basePath.src + 'images/',
   assets: basePath.src + 'assets/',
   fonts: basePath.src + 'fonts/',
@@ -58,12 +57,6 @@ gulp.task('styles', function () {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
-
-gulp.task('scripts', function () {
-  gulp.src(srcAssets.scripts + '**.js')
-    .pipe(gulpif(isProd, uglify()))
-    .pipe(gulp.dest(destAssets.scripts));
 });
 
 gulp.task('images', function () {
@@ -104,15 +97,14 @@ gulp.task('template', function () {
     .pipe(gulp.dest(destAssets.root))
 });
 
-gulp.task('watch', ['copy', 'copy-fonts', 'styles', 'scripts', 'template', 'browserSync'], function () {
+gulp.task('watch', ['copy', 'copy-fonts', 'styles', 'template', 'browserSync'], function () {
   gulp.watch(srcAssets.images + '**/*.+(png|jpg|gif|svg)', ['copy']);
   gulp.watch(srcAssets.styles + '**/*.+(scss|sass|css)', ['styles']);
-  gulp.watch(srcAssets.scripts + '**/*.js', ['scripts', browserSync.reload]);
   gulp.watch(srcAssets.root + '**/*.+(html|nunjucks|njk)', ['template', browserSync.reload]);
 });
 
-gulp.task('default', ['clean', 'images', 'styles', 'scripts', 'template', 'watch']);
+gulp.task('default', ['clean', 'images', 'styles', 'template', 'watch']);
 
 gulp.task('build', ['default']);
 
-gulp.task('production', ['set-prod', 'clean', 'images', 'styles', 'scripts', 'template']);
+gulp.task('production', ['set-prod', 'clean', 'images', 'styles', 'template']);
