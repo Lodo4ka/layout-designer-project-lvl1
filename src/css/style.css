@@ -97,11 +97,11 @@ h3 {
 
   font-weight: 400;
   font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
 }
 
 h1 {
   font-size: 72px;
+  line-height: 86.4px;
 }
 
 @media screen and (max-width: 550px) {
@@ -113,6 +113,7 @@ h1 {
 h2 {
   color: #fe8a02;
   font-size: 60px;
+  line-height: 66px;
 }
 
 @media screen and (max-width: 550px) {
@@ -122,13 +123,19 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 34px;
+  line-height: 40.8px;
 }
 
 @media screen and (max-width: 550px) {
   h3 {
     font-size: 20px;
   }
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 28.8px;
 }
 
 .font-open-sans {
@@ -177,6 +184,9 @@ h3 {
 
 body {
   margin: 0;
+
+  font-family: 'Open Sans Normal', sans-serif;
+  line-height: 25.6px;
 }
 
 html {
@@ -415,6 +425,7 @@ html {
 .card-number {
   color: inherit;
   font-size: 64px;
+  line-height: 70.5px;
 }
 
 .card-title {
