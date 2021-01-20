@@ -2,7 +2,7 @@
   padding: 100px 0 111px;
 }
 
-.footer-form {
+.footer-form-container {
   padding: 38px 55px 40px;
 
   @media screen and (max-width: 930px) {
@@ -58,28 +58,28 @@
   }
 
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #000;
+    color: #757575;
     font-size: 13px;
 
     opacity: 0.2;
   }
 
   &::-moz-placeholder { /* Firefox 19+ */
-    color: #000;
+    color: #757575;
     font-size: 13px;
 
     opacity: 0.2;
   }
 
   &:-ms-input-placeholder { /* IE 10+ */
-    color: #000;
+    color: #757575;
     font-size: 13px;
 
     opacity: 0.2;
   }
 
   &:-moz-placeholder { /* Firefox 18- */
-    color: #000;
+    color: #757575;
     font-size: 13px;
 
     opacity: 0.2;

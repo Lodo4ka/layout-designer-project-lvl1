@@ -261,23 +261,25 @@
   
   <footer class="footer">
   <div class="footer-container container">
-    <form class="footer-form footer-form-main-dark font-neucha flex-wrap d-flex align-center">
+    <div class="footer-form-container footer-form-main-dark flex-wrap d-flex align-center">
       <h3 class="footer-question footer-question-white d-block">
         Хотите узнать больше?
         Подпишитесь на
         обновления
       </h3>
-      <div class="font-open-sans">
-        <label for="footer-form-input" class="footer-form-email-white d-block">Электронная почта</label>
-        <div class="footer-form-input-wrapper d-flex">
-          <input type="email" class="footer-form-input" id="footer-form-input" placeholder="Ваша электронная почта">
-          <button class="btn-send d-flex align-center"></button>
+      <form class="font-neucha">
+        <div class="font-open-sans">
+          <label for="footer-form-input" class="footer-form-email-white d-block">Электронная почта</label>
+          <div class="footer-form-input-wrapper d-flex">
+            <input type="email" class="footer-form-input" id="footer-form-input" placeholder="Ваша электронная почта">
+            <button class="btn-send d-flex align-center"></button>
+          </div>
+          <i class="text-white footer-subscribe d-block">Подписываясь, вы принимаете <a href="#"
+                                                                                        class="text-white link-underline">правила
+              сервиса</a></i>
         </div>
-        <i class="text-white footer-subscribe d-block">Подписываясь, вы принимаете <a href="#"
-            class="text-white link-underline">правила
-            сервиса</a></i>
-      </div>
-    </form>
+      </form>
+    </div>
     <div class="footer-copyright font-open-sans d-flex fz-09 flex-column align-center">
       <div class="mb-1">© 2020 Новиков Максим</div>
       <div class="mb-1 footer-material">По материалам статьи Yash Ranadive <a
@@ -295,7 +297,6 @@
 
   
   <!-- Scripts -->
-  <script src="js/index.js"></script>
 </body>
 
 </html>
