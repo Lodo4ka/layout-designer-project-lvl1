@@ -360,6 +360,8 @@ html {
 }
 
 .header-description {
+  margin: 0;
+
   color: #2a2626;
   line-height: 26px;
 }

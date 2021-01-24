@@ -71,8 +71,9 @@
 }
 
 .header-description {
-  color: $dark;
+  margin: 0;
 
+  color: $dark;
   line-height: 26px;
 
   @media screen and (max-width: 650px) {
