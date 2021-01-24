@@ -18,5 +18,5 @@ make install
 make lint
 ```
 
-[My surge link](http://troubled-channel.surge.sh/)
+[My surge link](http://boring-stretch.surge.sh/)
 
