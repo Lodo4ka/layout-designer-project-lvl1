@@ -74,7 +74,6 @@ h3 {
 
 .text-white {
   color: $color-white;
-  font-weight: 400;
 
   @media screen and (max-width: 550px) {
     font-size: 12px;
@@ -86,8 +85,20 @@ h3 {
   color: $blue;
 }
 
+.text-brown {
+  color: $brown;
+}
+
 .text-dark {
   color: $dark;
+}
+
+.text-translucent-white {
+  color: $translucent-white;
+}
+
+.text-translucent-dark {
+  color: $translucent-dark;
 }
 
 .text-main {

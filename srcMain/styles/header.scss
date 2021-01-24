@@ -71,10 +71,6 @@
 }
 
 .header-description {
-  flex: 1;
-  margin: 0;
-  padding: 0 15px;
-
   color: $dark;
 
   line-height: 26px;
@@ -91,6 +87,7 @@
 }
 
 .btn-title {
+  max-width: 148px;
   margin-top: 40px;
   padding: 12px 24px;
 
