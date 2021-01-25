@@ -410,7 +410,7 @@ html {
 }
 
 .youtube-description {
-  margin: 30px 0;
+  margin: 30px 0 29px;
 }
 
 @media screen and (max-width: 550px) {
