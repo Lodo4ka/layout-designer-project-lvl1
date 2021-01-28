@@ -410,7 +410,7 @@ html {
 }
 
 .youtube-description {
-  margin: 27px 0 30px;
+  margin: 30px 0;
 }
 
 @media screen and (max-width: 550px) {
@@ -453,7 +453,7 @@ html {
 }
 
 .main-menu {
-  padding: 194px 165px 100px;
+  padding: 200px 0 100px;
 }
 
 .main-menu::before {
