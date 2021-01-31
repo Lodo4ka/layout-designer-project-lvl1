@@ -588,7 +588,7 @@ html {
 }
 
 .section-description {
-  margin: 0;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 700px) {
@@ -613,13 +613,12 @@ html {
 
 .section-desc-typo {
   font-size: 34px;
+  font-family: 'Neucha', serif;
   line-height: 40.8px;
 }
 
 .section-desc {
   margin: 0;
-
-  line-height: 40.8px;
 }
 
 @media screen and (max-width: 1100px) {

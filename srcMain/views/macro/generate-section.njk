@@ -1,4 +1,5 @@
-{% macro generate_section(name, img, titleMain, titleSub, descriptions, colorText, sympBackColor, sympColorTxt,
+{% macro generate_section(name, img, titleMain, titleSub, descriptions1, descriptions2, colorText, sympBackColor,
+sympColorTxt,
 orderImg) %}
 <section class="section background-after-{{ sympColorTxt }} position-relative" id="{{name}}">
   <div class="container position-relative">
@@ -18,14 +19,22 @@ orderImg) %}
       Как проявляется
     </h3>
     <div class="section-description-wrapper row">
-      {% for desc in descriptions %}
       <div class="column-6">
+        {% for desc in descriptions1 %}
         <p class="section-description text-{{colorText}}">
-          {{desc | safe}}
+          {{desc}}
         </p>
+        {% endfor %}
       </div>
-      {% endfor %}
+      <div class="column-6">
+        {% for desc in descriptions2 %}
+        <p class="section-description text-{{colorText}}">
+          {{desc}}
+        </p>
+        {% endfor %}
+      </div>
     </div>
+  </div>
   </div>
 </section>
 {% endmacro %}
