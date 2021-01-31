@@ -1,28 +1,28 @@
 .header {
-
-  background-color: $light;
   overflow: hidden;
 
+  background-color: $light;
+
   &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    bottom: 0;
+    opacity: 0.06;
 
     content: '';
-    left: 0;
-    opacity: 0.06;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 }
 
 .header-wrapper {
+  padding: 100px 0;
 
   line-height: 1.2;
-  padding: 100px 0;
 
   @media screen and (max-width: 1100px) {
     justify-content: center;
@@ -31,19 +31,19 @@
 }
 
 .title {
-
-  line-height: 88px;
-
-  margin: 0;
   position: relative;
   z-index: 1;
+
+  margin: 0;
+
+  line-height: 88px;
 }
 
 .title-img {
+  top: 55px;
+  right: -270px;
 
   height: 525px;
-  right: -270px;
-  top: 55px;
 
   @media screen and (max-width: 1100px) {
     display: none;
@@ -71,10 +71,10 @@
 }
 
 .header-description {
+  margin: 0;
 
   color: $dark;
   line-height: 25.6px;
-  margin: 0;
 
   @media screen and (max-width: 650px) {
     &:nth-child(1) {
@@ -88,8 +88,8 @@
 }
 
 .btn-title {
-  margin-top: 40px;
   max-width: 148px;
+  margin-top: 40px;
   padding: 12px 24px;
 
   @media screen and (max-width: 650px) {
@@ -98,12 +98,13 @@
 }
 
 .btn-orange {
-
-  background-color: $main;
   color: $color-white;
   font-size: 16px;
-  text-decoration: none;
+  font-family: 'Open Sans Bold', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: $main;
 
   @media screen and (max-width: 650px) {
     text-align: center;
