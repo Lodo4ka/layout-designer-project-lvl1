@@ -18,5 +18,11 @@ make install
 make lint
 ```
 
+## Run dev project
+
+```sh
+npm run dev
+```
+
 [My surge link](http://hesitant-quilt.surge.sh/)
 
