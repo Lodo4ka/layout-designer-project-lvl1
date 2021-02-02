@@ -130,6 +130,18 @@
   order: 1;
 }
 
+.mb-20 {
+  margin-bottom: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 20px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 @font-face {
   font-weight: 400;
   font-family: 'Open Sans Normal';
@@ -668,7 +680,6 @@ html {
 }
 
 .section-symptoms {
-  margin: 100px 0 0;
   padding: 5px 10px;
 }
 
