@@ -28,7 +28,7 @@ const srcAssets = {
 };
 
 const destAssets = {
-  styles: basePath.dest + 'css/',
+  styles: basePath.dest + 'styles/',
   scripts: basePath.dest + 'js/',
   images: basePath.dest + 'images/',
   assets: basePath.dest + 'assets/',
