@@ -482,18 +482,6 @@ html {
   content: '';
 }
 
-@media screen and (max-width: 1490px) {
-  .main-menu {
-    padding: 100px 50px;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .main-menu {
-    padding: 100px 0;
-  }
-}
-
 .card {
   height: 100%;
   padding: 24px;
