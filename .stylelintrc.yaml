@@ -4,7 +4,6 @@ extends:
 
 plugins:
   - stylelint-order
-  - stylelint-scss
 
 rules:
   declaration-empty-line-before: null
