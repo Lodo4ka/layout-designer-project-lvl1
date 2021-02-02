@@ -154,6 +154,10 @@
   margin-bottom: 0;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 @font-face {
   font-weight: 400;
   font-family: 'Open Sans Normal';
