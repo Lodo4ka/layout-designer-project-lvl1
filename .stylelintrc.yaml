@@ -1,16 +1,16 @@
 extends:
   - stylelint-config-standard
-  # - stylelint-config-rational-order
+  - stylelint-config-rational-order
   # - stylelint-config-sass-guidelines
 
 plugins:
-  # - stylelint-order
-  # - stylelint-config-rational-order/plugin
+  - stylelint-order
+  - stylelint-config-rational-order/plugin
 
 rules:
-  order/properties-order: []
+  # order/properties-order: []
   declaration-empty-line-before: null
-  # plugin/rational-order:
-  #   - true
-  #   - empty-line-between-groups: true
+  plugin/rational-order:
+    - true
+    - empty-line-between-groups: true
   at-rule-no-unknown: null
