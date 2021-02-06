@@ -7,8 +7,6 @@
     "dev": "gulp"
   },
   "devDependencies": {
-    "gulp-stylelint": "^13.0.0",
-    "stylelint-scss": "^3.18.0",
     "browser-sync": "^2.24.4",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -18,11 +16,14 @@
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.1",
+    "gulp-stylelint": "^13.0.0",
     "gulp-uglify": "^3.0.0",
     "htmlhint": "^0.14.2",
-    "stylelint": "^13.8.0",
+    "stylelint": "^13.9.0",
     "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
