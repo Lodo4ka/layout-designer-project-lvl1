@@ -1,8 +1,8 @@
 
 @font-face {
-  font-weight: 400;
   font-family: 'Open Sans Normal';
   font-style: normal;
+  font-weight: 400;
   src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
@@ -21,10 +21,10 @@
 h1,
 h2,
 h3 {
-  margin: 0;
+  font-family: 'Neucha', sans-serif;
 
   font-weight: 400;
-  font-family: 'Neucha', sans-serif;
+  margin: 0;
 }
 
 h1 {
