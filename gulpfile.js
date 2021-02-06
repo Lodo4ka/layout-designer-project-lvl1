@@ -2,13 +2,13 @@ const gulp = require('gulp'),
   gulpif = require('gulp-if'),
   uglify = require('gulp-uglify'),
   del = require('del'),
-  data = require('gulp-data'),
   sass = require('gulp-sass'),
   imagemin = require('gulp-imagemin'),
   concat = require('gulp-concat'),
   browserSync = require('browser-sync').create(),
   nunjucksRender = require('gulp-nunjucks-render'),
-  gulpStylelint = require('gulp-stylelint')
+  gulpStylelint = require('gulp-stylelint'),
+  plumber = require('gulp-plumber'),
   cssbeautify = require('gulp-cssbeautify');
 
 const basePath = {
@@ -42,6 +42,7 @@ gulp.task('set-prod', function () {
 
 gulp.task('styles', function () {
   gulp.src(srcAssets.styles + 'style.scss')
+    .pipe(plumber())
     .pipe(sass({
       sourceMap: 'sass',
       outputStyle: 'nested'
@@ -53,6 +54,7 @@ gulp.task('styles', function () {
     .pipe(gulpStylelint({
       fix: true
     }))
+    .pipe(plumber.stop())
     .pipe(gulp.dest(destAssets.styles))
     .pipe(browserSync.reload({
       stream: true
