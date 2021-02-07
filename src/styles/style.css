@@ -365,17 +365,12 @@ section {
   background-color: #fe8a02;
 }
 
-.youtube {
-  padding-top: 100px;
-  padding-bottom: 0;
-}
-
 .youtube-title {
   line-height: 72px;
 }
 
 .youtube-video {
-  top: 100px;
+  top: 200px;
 
   max-width: 100%;
   height: 569px;
@@ -383,7 +378,7 @@ section {
 
 .youtube-video-filter {
   width: 919px;
-  margin-top: -100px;
+  margin-top: -200px;
 
   border: 0;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
