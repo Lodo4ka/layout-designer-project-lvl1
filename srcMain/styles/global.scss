@@ -3,12 +3,12 @@
 }
 
 body {
-
-  font-family: 'Open Sans Normal', sans-serif;
+  margin: 0;
 
   font-size: 16px;
+
+  font-family: 'Open Sans Normal', sans-serif;
   line-height: 25.6px;
-  margin: 0;
 }
 
 html {
@@ -22,10 +22,12 @@ img {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1110px;
+  margin: 0 auto;
 }
 
+header,
+footer,
 section {
   padding: 100px 0;
 }

@@ -308,6 +308,8 @@ html {
   margin: 0 auto;
 }
 
+header,
+footer,
 section {
   padding: 100px 0;
 }
@@ -333,17 +335,6 @@ section {
   content: '';
 }
 
-.header-wrapper {
-  padding: 100px 0;
-}
-
-@media screen and (max-width: 1100px) {
-  .header-wrapper {
-    justify-content: center;
-    padding: 50px 15px;
-  }
-}
-
 .title {
   position: relative;
   z-index: 1;
@@ -352,7 +343,7 @@ section {
 }
 
 .title-img {
-  top: 55px;
+  top: -55px;
   right: -270px;
 
   height: 525px;
@@ -680,10 +671,6 @@ section {
   z-index: -1;
 
   content: '';
-}
-
-.footer {
-  padding: 100px 0 111px;
 }
 
 .footer-form-container {
