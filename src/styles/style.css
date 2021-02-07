@@ -436,6 +436,10 @@ section {
   padding-bottom: 0;
 }
 
+.youtube-title {
+  line-height: 72px;
+}
+
 .youtube-video {
   top: 100px;
 
