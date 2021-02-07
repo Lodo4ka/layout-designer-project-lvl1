@@ -322,8 +322,6 @@ html {
 
 .header-wrapper {
   padding: 100px 0;
-
-  line-height: 1.2;
 }
 
 @media screen and (max-width: 1100px) {
