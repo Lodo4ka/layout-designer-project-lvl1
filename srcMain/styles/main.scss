@@ -1,13 +1,6 @@
 .youtube {
   padding-top: 100px;
-
-  &-description {
-    margin: 0 0 30px;
-
-    @media screen and (max-width: 550px) {
-      font-size: 12px;
-    }
-  }
+  padding-bottom: 0;
 
   &-video {
     top: 100px;
@@ -33,15 +26,9 @@
   }
 }
 
-.youtube-title {
-  margin: 0 0 30px;
-
-  line-height: 72px;
-}
-
 .main-menu {
   width: 100%;
-  padding: 200px 0 100px;
+  padding-top: 100px;
 
   &::before {
     position: absolute;
@@ -76,15 +63,6 @@
     font-family: 'Neucha', serif;
 
     line-height: 40.8px;
-  }
-
-  &-description {
-    color: inherit;
-    font-size: 16px;
-
-    @media screen and (max-width: 550px) {
-      font-size: 12px;
-    }
   }
 
   &:hover {

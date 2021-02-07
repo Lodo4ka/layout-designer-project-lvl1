@@ -218,6 +218,7 @@ h3 {
 
 .subtitle {
   font-size: 24px;
+  font-family: 'Neucha', sans-serif;
   line-height: 28.8px;
 }
 
@@ -301,6 +302,10 @@ html {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+section {
+  padding: 100px 0;
 }
 
 .header {
@@ -428,16 +433,7 @@ html {
 
 .youtube {
   padding-top: 100px;
-}
-
-.youtube-description {
-  margin: 0 0 30px;
-}
-
-@media screen and (max-width: 550px) {
-  .youtube-description {
-    font-size: 12px;
-  }
+  padding-bottom: 0;
 }
 
 .youtube-video {
@@ -467,15 +463,9 @@ html {
   }
 }
 
-.youtube-title {
-  margin: 0 0 30px;
-
-  line-height: 72px;
-}
-
 .main-menu {
   width: 100%;
-  padding: 200px 0 100px;
+  padding-top: 100px;
 }
 
 .main-menu::before {
@@ -510,17 +500,6 @@ html {
   font-size: 34px;
   font-family: 'Neucha', serif;
   line-height: 40.8px;
-}
-
-.card-description {
-  color: inherit;
-  font-size: 16px;
-}
-
-@media screen and (max-width: 550px) {
-  .card-description {
-    font-size: 12px;
-  }
 }
 
 .card:hover {
