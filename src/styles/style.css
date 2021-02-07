@@ -814,14 +814,6 @@ html {
   opacity: 0.2;
 }
 
-.footer-form-input:input-placeholder {
-  /* IE 10+ */
-  color: #757575;
-  font-size: 13px;
-
-  opacity: 0.2;
-}
-
 .footer-form-input:placeholder {
   /* Firefox 18- */
   color: #757575;
