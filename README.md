@@ -24,5 +24,5 @@ make lint
 npm run dev
 ```
 
-[My surge link](http://hesitant-quilt.surge.sh/)
+[My surge link](http://max-bias.surge.sh/)
 
