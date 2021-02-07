@@ -339,7 +339,7 @@ section {
   position: relative;
   z-index: 1;
 
-  margin: 0;
+  margin-bottom: 185px;
 }
 
 .title-img {
@@ -360,22 +360,6 @@ section {
     justify-content: center;
 
     text-align: center;
-  }
-}
-
-.header-description-wrapper {
-  margin: 185px -15px 0;
-}
-
-@media screen and (max-width: 1100px) {
-  .header-description-wrapper {
-    margin-top: 100px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .header-description-wrapper {
-    display: block;
   }
 }
 
