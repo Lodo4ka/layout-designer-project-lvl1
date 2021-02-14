@@ -142,6 +142,14 @@
   background-color: #fff;
 }
 
+.background-after-brown::after {
+  background-color: #b09a81;
+}
+
+.background-after-white::after {
+  background-color: #f5f4f0;
+}
+
 .order-prev {
   order: -1;
 }
@@ -169,12 +177,6 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
 }
 
 h1,
@@ -257,6 +259,12 @@ html {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 header,
 footer,
 section {
@@ -307,6 +315,7 @@ section {
 .btn-orange {
   color: #fff;
   font-weight: 700;
+  font-family: 'Open Sans Bold', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -436,6 +445,7 @@ section {
 }
 
 .section-symptoms-typo {
+  font-weight: 700;
   font-size: 14px;
   font-family: 'Open Sans Bold', sans-serif;
   line-height: 16.8px;
@@ -580,5 +590,6 @@ section {
 .footer-copyright {
   margin-top: 76px;
 
+  font-size: 14px;
   line-height: 22.4px;
 }
