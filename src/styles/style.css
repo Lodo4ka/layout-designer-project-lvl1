@@ -161,13 +161,13 @@
 @font-face {
   font-family: 'Neucha';
   font-style: normal;
-  src: url('../fonts/Neucha-Regular.woff2') format('woff2'), url('../fonts/Neucha-Regular.woff') format('woff');
+  src: url("../fonts/Neucha-Regular.woff2") format("woff2"), url("../fonts/Neucha-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff');
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
 }
 
 body {
@@ -284,7 +284,7 @@ section {
   bottom: 0;
   left: 0;
 
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.06;
@@ -308,7 +308,7 @@ section {
 
 .btn-detail {
   margin-top: 40px;
-  padding: 12px 24px;
+  padding: 12px 23px;
 }
 
 .btn-orange {
@@ -476,7 +476,7 @@ section {
   bottom: 0;
   left: 0;
 
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -559,7 +559,7 @@ section {
   width: 20px;
   height: 20px;
 
-  background-image: url('../images/send.svg');
+  background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
 
