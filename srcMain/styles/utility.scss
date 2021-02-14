@@ -143,15 +143,11 @@
 }
 
 .background-after-brown {
-  &::after {
-    background-color: $brown;
-  }
+  background-color: $brown;
 }
 
 .background-after-white {
-  &::after {
-    background-color: $light;
-  }
+  background-color: $light;
 }
 
 .order-prev {

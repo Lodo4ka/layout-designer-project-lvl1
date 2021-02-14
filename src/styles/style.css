@@ -142,11 +142,11 @@
   background-color: #fff;
 }
 
-.background-after-brown::after {
+.background-after-brown {
   background-color: #b09a81;
 }
 
-.background-after-white::after {
+.background-after-white {
   background-color: #f5f4f0;
 }
 
@@ -478,17 +478,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-
-  content: '';
-}
-
-.section::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
 
   content: '';
 }
