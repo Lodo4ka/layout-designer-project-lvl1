@@ -69,19 +69,23 @@
 }
 
 .mb-1 {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .mt-05 {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
-.mt-06 {
-  margin-top: 14px;
+.mb-0875 {
+  margin-top: 0.875rem;
 }
 
-.mt-10 {
-  margin-top: 20px;
+.mt-125 {
+  margin-top: 1.25rem;
+}
+
+.mb-125 {
+  margin-bottom: 1.25rem;
 }
 
 .ma-0 {
@@ -89,16 +93,32 @@
 }
 
 .mt-1 {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .mt-0 {
   margin-top: 0;
 }
 
-.py-2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.mb-1875 {
+  margin-bottom: 30px;
+}
+
+.mb-625 {
+  margin-bottom: 6.25rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-3125 {
+  margin-bottom: 3.125rem;
+}
+
+.py-0625 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .link {
@@ -118,14 +138,6 @@
   background-color: #b09a81;
 }
 
-.background-after-brown::after {
-  background-color: #b09a81;
-}
-
-.background-after-white::after {
-  background-color: #f5f4f0;
-}
-
 .background-white {
   background-color: #fff;
 }
@@ -138,26 +150,6 @@
   order: 1;
 }
 
-.mb-20 {
-  margin-bottom: 30px;
-}
-
-.mb-10 {
-  margin-bottom: 20px;
-}
-
-.mb-100 {
-  margin-bottom: 100px;
-}
-
-.mb-0 {
-  margin-bottom: 0;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
 @font-face {
   font-family: 'Neucha';
   font-style: normal;
@@ -167,14 +159,15 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff');
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff');
 }
 
 body {
   margin: 0;
 
+  font-weight: 400;
   font-size: 16px;
-  font-family: 'Open Sans Normal', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
 }
 
@@ -313,8 +306,7 @@ section {
 
 .btn-orange {
   color: #fff;
-  font-size: 16px;
-  font-family: 'Open Sans Bold', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
 

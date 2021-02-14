@@ -3,23 +3,27 @@
   font-style: normal;
   src:
     url('../fonts/Neucha-Regular.woff2') format('woff2'),
-    url('../fonts/Neucha-Regular.woff') format('woff'),;
+    url('../fonts/Neucha-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
+
   src:
     url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-    url('../fonts/OpenSans-Regular.woff') format('woff'),;
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Bold.woff') format('woff');
 }
 
 body {
   margin: 0;
 
-  font-size: 16px;
+  font-weight: 400;
 
-  font-family: 'Open Sans Normal', sans-serif;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
 }
 
