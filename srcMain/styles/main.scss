@@ -15,7 +15,7 @@
     margin-top: -200px;
 
     border: 0;
-    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    filter: $shadow-img;
   }
 }
 
@@ -133,8 +133,6 @@
 
 .section-img {
   max-width: 100%;
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .section {
