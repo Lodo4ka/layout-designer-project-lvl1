@@ -1,14 +1,15 @@
 extends:
   - stylelint-config-standard
   - stylelint-config-rational-order
-  # - stylelint-config-sass-guidelines
+  - stylelint-config-sass-guidelines
 
 plugins:
   - stylelint-order
   - stylelint-config-rational-order/plugin
 
 rules:
-  # order/properties-order: []
+  order/properties-alphabetical-order: null
+  order/properties-order: []
   declaration-empty-line-before: null
   plugin/rational-order:
     - true
