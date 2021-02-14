@@ -6,13 +6,12 @@
   &-video {
     top: 200px;
 
-    max-width: 100%;
-    height: 569px;
+    margin-top: -200px;
   }
 
   &-video-filter {
     width: 919px;
-    margin-top: -200px;
+    height: 569px;
 
     border: 0;
     filter: $shadow-img;
