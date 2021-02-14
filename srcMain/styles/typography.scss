@@ -1,85 +1,67 @@
-
-@font-face {
-  font-family: 'Open Sans Normal';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans Bold';
-  font-style: normal;
-  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
-}
-
 @font-face {
   font-family: 'Neucha';
   font-style: normal;
-  src: url('../fonts/Neucha-Regular.ttf') format('truetype');
+  src:
+    url('../fonts/Neucha-Regular.woff2') format('woff2'),
+    url('../fonts/Neucha-Regular.woff') format('woff'),;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  src:
+    url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),;
+}
+
+body {
+  margin: 0;
+
+  font-size: 16px;
+
+  font-family: 'Open Sans Normal', sans-serif;
+  line-height: 25.6px;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Neucha', sans-serif;
-
-  font-weight: 400;
   margin: 0;
 }
 
-h1 {
+h1,
+.heading-1 {
   font-size: 72px;
-  line-height: 86.4px;
-
-  @media screen and (max-width: 550px) {
-    font-size: 40px;
-  }
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2;
 }
 
-h2 {
-  color: $main;
+h2,
+.heading-2 {
   font-size: 60px;
-  line-height: 66px;
-
-  @media screen and (max-width: 550px) {
-    font-size: 35px;
-  }
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.1;
 }
 
-h3 {
+h3,
+.heading-3 {
   font-size: 34px;
-  line-height: 40.8px;
-
-  @media screen and (max-width: 550px) {
-    font-size: 20px;
-  }
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2;
 }
 
-.subtitle {
+.subheader {
   font-size: 24px;
-  font-family: 'Neucha', sans-serif;
-  line-height: 28.8px;
-}
-
-.font-open-sans {
-  font-family: 'Open Sans Normal', sans-serif;
-}
-
-.font-open-sans-bold {
-  font-family: 'Open Sans Bold', sans-serif;
-}
-
-.font-neucha {
-  font-family: 'Neucha', serif;
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2;
 }
 
 .text-white {
   color: $color-white;
-
-  @media screen and (max-width: 550px) {
-    font-size: 12px;
-    text-align: center;
-  }
 }
 
 .text-blue {
