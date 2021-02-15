@@ -165,9 +165,17 @@
 }
 
 @font-face {
+  font-weight: normal;
   font-family: 'Open Sans';
   font-style: normal;
-  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
 }
 
 body {
@@ -175,7 +183,7 @@ body {
 
   font-weight: 400;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans ', sans-serif;
   line-height: 25.6px;
 }
 
@@ -314,7 +322,6 @@ section {
 .btn-orange {
   color: #fff;
   font-weight: 700;
-  font-family: 'Open Sans Bold', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -445,7 +452,6 @@ section {
 .section-symptoms-typo {
   font-weight: 700;
   font-size: 14px;
-  font-family: 'Open Sans Bold', sans-serif;
   line-height: 16.8px;
   text-transform: uppercase;
 }
