@@ -159,6 +159,7 @@
 }
 
 @font-face {
+  font-weight: normal;
   font-family: 'Neucha';
   font-style: normal;
   src: url("../fonts/Neucha-Regular.woff2") format("woff2"), url("../fonts/Neucha-Regular.woff") format("woff");
@@ -183,7 +184,7 @@ body {
 
   font-weight: 400;
   font-size: 16px;
-  font-family: 'Open Sans ', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
 }
 
