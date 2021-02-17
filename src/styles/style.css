@@ -118,6 +118,10 @@
   background-color: #b09a81;
 }
 
+.background-main-dark {
+  background-color: #42413c;
+}
+
 .background-after-white {
   background-color: #f5f4f0;
 }
@@ -308,6 +312,8 @@ section {
 }
 
 .youtube-video-filter {
+  z-index: 1;
+
   width: 919px;
   height: 569px;
 
@@ -318,19 +324,6 @@ section {
 .main-menu {
   width: 100%;
   padding-top: 90px;
-}
-
-.main-menu::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-
-  background-color: #42413c;
-
-  content: '';
 }
 
 .card {
