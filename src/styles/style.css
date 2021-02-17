@@ -416,6 +416,7 @@ section {
 .section-symptoms-typo {
   font-weight: 700;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 16.8px;
   text-transform: uppercase;
 }
