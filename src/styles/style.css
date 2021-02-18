@@ -172,8 +172,7 @@ h1,
   line-height: 1.2;
 }
 
-h2,
-.heading-2 {
+h2 {
   font-weight: 400;
   font-size: 60px;
   font-family: 'Neucha', cursive;
