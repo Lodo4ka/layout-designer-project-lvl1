@@ -341,7 +341,7 @@ section {
 .card-number {
   color: inherit;
   font-size: 64px;
-  font-family: 'Neucha', serif;
+  font-family: 'Neucha', cursive;
   line-height: 70.5px;
 }
 
@@ -349,9 +349,6 @@ section {
   margin-top: 40px;
 
   color: #fe8a02;
-  font-size: 34px;
-  font-family: 'Neucha', serif;
-  line-height: 40.8px;
 }
 
 .card:hover {
@@ -381,16 +378,6 @@ section {
   line-height: 1.2;
 
   background: transparent;
-}
-
-.section-desc-typo {
-  font-size: 34px;
-  font-family: 'Neucha', serif;
-  line-height: 40.8px;
-}
-
-.section-desc {
-  margin: 0;
 }
 
 .section-title-typo {

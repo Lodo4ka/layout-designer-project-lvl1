@@ -28,7 +28,7 @@
   &-number {
     color: inherit;
     font-size: 64px;
-    font-family: 'Neucha', serif;
+    font-family: 'Neucha', cursive;
     line-height: 70.5px;
   }
 
@@ -36,10 +36,6 @@
     margin-top: 40px;
 
     color: $main;
-    font-size: 34px;
-    font-family: 'Neucha', serif;
-
-    line-height: 40.8px;
   }
 
   &:hover {
@@ -70,16 +66,6 @@
   line-height: 1.2;
 
   background: transparent;
-}
-
-.section-desc-typo {
-  font-size: 34px;
-  font-family: 'Neucha', serif;
-  line-height: 40.8px;
-}
-
-.section-desc {
-  margin: 0;
 }
 
 .section-title-typo {
