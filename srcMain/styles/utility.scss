@@ -43,8 +43,16 @@
   margin-top: 20px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 .ma-0 {
   margin: 0;
+}
+
+.pa-0 {
+  padding: 0;
 }
 
 .mt-0 {
@@ -75,6 +83,10 @@
 
 .d-block {
   display: block;
+}
+
+.shadow-img {
+  filter: $shadow-img;
 }
 
 .d-inline-block {

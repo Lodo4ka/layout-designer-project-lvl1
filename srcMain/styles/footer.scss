@@ -44,28 +44,6 @@
   }
 }
 
-.btn-send {
-  padding: 15px 23px;
-
-  color: $color-white;
-  font-size: 20px;
-
-  background-color: $main;
-  border: 0;
-
-  &::before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-
-    background-image: url('../images/send.svg');
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-
-    content: '';
-  }
-}
-
 .footer-form-input-img {
   padding: 15px 21px;
 }

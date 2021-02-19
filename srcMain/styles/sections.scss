@@ -1,0 +1,31 @@
+
+.section-title-container {
+  max-width: 502px;
+}
+
+.section-symptoms {
+  padding: 5px 10px;
+}
+
+.section-symptoms-typo {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 16.8px;
+  text-transform: uppercase;
+}
+
+.section::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: '';
+}
