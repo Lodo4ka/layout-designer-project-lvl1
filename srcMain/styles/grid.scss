@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.column-6 {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.column-4 {
+  flex-basis: 33.33333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 33.33333%;
+  padding: 0 15px;
+}

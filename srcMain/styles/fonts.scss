@@ -1,0 +1,28 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'Neucha';
+  font-style: normal;
+  src:
+    url('../fonts/Neucha-Regular.woff2') format('woff2'),
+    url('../fonts/Neucha-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Open Sans';
+  font-style: normal;
+
+  src:
+    url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),;
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-style: normal;
+
+  src:
+    url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Bold.woff') format('woff');
+}
